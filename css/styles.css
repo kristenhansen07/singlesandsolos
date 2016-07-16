@@ -1,0 +1,204 @@
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #082F68;
+  color: white;
+}
+
+/*HEADER*/
+#header-nav {
+	background-color: #0081C6;
+	border-radius: 0;
+	border: 0;
+	height: 100px;
+}
+
+
+
+
+.navbar-brand h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color: white;
+	opacity: .8;
+	padding: 0;
+	margin: 0;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px black;
+
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+
+.navbar-header button.navbar-toggle, .icon-bar {
+	border: 1px solid #008B8B;
+}
+
+#nav-list {
+	margin-top: 10px;
+	background-color: #008B8B;
+}
+
+#nav-list a {
+	text-align: center;
+	color: #D3D3D3;
+}
+
+#nav-list a:hover {
+	background: white;
+	color:#008B8B;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+/*END HEADER*/
+
+.container .jumbotron {
+	box-shadow: 0 0 50px #3f0c1f;
+	border: 2px solid white;
+}
+
+#pmletter, #info, #details {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #0081C6;
+	padding: 15px 30px 0;
+	text-align: justify;
+	float: left;
+	box-shadow: 0 0 50px #3f0c1f;
+	border: 2px solid white;
+	
+}
+
+#pmletter {
+	width: 100%;
+}
+
+
+#actualletter {
+	width: 500px;
+	float:left;
+}
+
+#pmletter iframe {
+	float:left;
+	padding-right: 20px;
+}
+
+#details {
+	height: 400px;
+	padding-top: 25px;
+}
+
+#info span {
+	/*text-transform: uppercase;*/
+	font-size: 1.2em;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+
+tr {
+	line-height: 25px;
+}
+
+td {
+	padding: 5px;
+}
+
+#regbutton {
+	text-align:center;
+	border:solid thin black;
+	border-radius:20px;
+	background-color:#3c5b6f;
+	color:white;
+	width: 200px;
+	margin: auto;
+}
+
+#regbutton h3 {
+	padding: 0;
+	margin: 15px;
+}
+
+
+#regbutton a:link {
+	color:white;
+}
+
+#regbutton a:visited {
+	color:white;
+}
+
+#regbutton a:hover {
+	color:#5F04B4;
+}
+
+.panel-footer {
+	background-color: #0081C6;
+	border-radius: 0;
+	border: 0;
+	color: white;
+}
+
+.panel-footer a:link {
+	color: white
+}
+
+#important {
+	font-size: 1.3em;
+	font-style: bold;
+
+}
+
+
+/*********** Large devices only ***********/
+@media (min-width: 1200px) {
+	/*Home page*/
+	.container .jumbotron {
+		background: url('../images/boat.jpg') no-repeat;
+		height: 300px;
+	}
+	/*End home page*/
+}
+
+
+/*********** Medium devices only ***********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*Home page*/
+	.container .jumbotron {
+		background: url('../images/boat_medium.jpg') no-repeat;
+		height: 271px;
+	}
+	/*End home page*/
+}
+
+/*********** Small devices only ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+	/*Home page*/
+	.container .jumbotron {
+		background: url('../images/boat_small.jpg') no-repeat;
+		height: 210px;
+	}
+	/*End home page*/
+}
+
+
+/*********** Extra Small devices only ***********/
+
+@media (max-width: 767px) {
+	.container .jumbotron {
+		padding: 0;
+	}
+
+.navbar-brand h1 {
+	font-size: 2em;
+}
+}
